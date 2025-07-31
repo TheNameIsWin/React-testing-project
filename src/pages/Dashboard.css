@@ -1,0 +1,75 @@
+/* Font setup
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.dashboard-container {
+  padding: 24px;
+  background-color: #050035;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Table Header */
+.ant-table-thead > tr > th {
+  background-color: #0a004a;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+}
+
+/* Table Body */
+.ant-table-tbody > tr > td {
+  background-color: #050035;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  padding: 12px;
+}
+
+/* Table Row Hover */
+.ant-table-tbody > tr:hover > td {
+  background-color: #0f0a4d;
+}
+
+/* Status Dot */
+.status-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.status-dot.active {
+  background-color: #00e676;
+}
+
+.status-dot.inactive {
+  background-color: #ff1744;
+}
+
+/* Buttons */
+.table-action-btn {
+  background-color: transparent;
+  border: 1px solid #ffffff80;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-right: 8px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.table-action-btn:hover {
+  background-color: #ffffff20;
+  color: #00e676;
+  border-color: #00e676;
+}
+
+/* Make full table corners rounded */
+.ant-table-wrapper .ant-table {
+  border-radius: 16px;
+  overflow: hidden;
+}

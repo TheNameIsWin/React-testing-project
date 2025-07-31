@@ -1,13 +1,110 @@
+/* BODY */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #030303;
+  color: #ffffff;
+  font-family: "Poppins", "Segoe UI", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* TABLE WRAPPER */
+.ant-table-wrapper {
+  padding: 24px;
+  background-color: transparent;
+}
+
+/* TABLE MAIN */
+.ant-table {
+  background-color: #00002b !important;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+/* HEADER CELLS */
+.ant-table-thead > tr > th {
+  background-color: #00002b !important;
+  color: #e0e6ff !important;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: none !important;
+  padding: 16px;
+}
+
+/* BODY CELLS */
+.ant-table-tbody > tr > td {
+  background-color: #00002b !important;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 14px;
+  transition: background 0.3s ease;
+}
+
+/* ROW HOVER */
+.ant-table-tbody > tr:hover > td {
+  background-color: #101040 !important;
+  transition: 0.2s;
+}
+
+/* FILTER DROPDOWN */
+.ant-table-filter-dropdown {
+  background-color: #121231 !important;
+  padding: 12px !important;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* FILTER INPUT */
+.ant-table-filter-dropdown input {
+  background-color: #00002b !important;
+  color: white !important;
+  border: 1px solid #404060 !important;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* FILTER ICON */
+.ant-table-filter-trigger {
+  color: #ffffff !important;
+  font-size: 16px;
+  opacity: 1 !important;
+}
+
+/* DISABLE FILTER BUTTONS */
+.ant-table-filter-dropdown .ant-btn {
+  display: none !important;
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+/* STATUS DOTS */
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.status-dot.active {
+  background-color: #00ff88;
+}
+.status-dot.inactive {
+  background-color: #ff4d4f;
+}
+
+/* ACTION BUTTONS */
+.table-action-btn {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.table-action-btn:hover {
+  color: #00d0ff;
 }

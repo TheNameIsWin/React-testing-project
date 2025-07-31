@@ -1,0 +1,40 @@
+.flight-table-wrapper {
+  background-color: #030303;
+  padding: 20px;
+  min-height: 100vh;
+  color: white;
+}
+
+.ant-table {
+  background-color: #00002B !important;
+  color: white;
+}
+
+.ant-table-cell {
+  border-bottom: none !important;
+  color: white;
+}
+
+.ant-modal-content {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.ant-form-item-label > label {
+  color: #ccc;
+}
+
+.ant-select-selector {
+  background-color: #00002B !important;
+  color: white !important;
+}
+
+.ant-input {
+  background-color: #00002B !important;
+  color: white !important;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border: none;
+}
